@@ -3,7 +3,7 @@ BEGIN {
   $Data::Coloured::AUTHORITY = 'cpan:GETTY';
 }
 # ABSTRACT: Visualize random ASCII data streams
-$Data::Coloured::VERSION = '0.001';
+$Data::Coloured::VERSION = '0.002';
 use strict;
 use warnings;
 use Exporter 'import';
@@ -92,7 +92,7 @@ Data::Coloured - Visualize random ASCII data streams
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 

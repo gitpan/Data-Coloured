@@ -3,12 +3,11 @@ BEGIN {
   $DDC::AUTHORITY = 'cpan:GETTY';
 }
 # ABSTRACT: Visualize random bytes
-$DDC::VERSION = '0.001';
+$DDC::VERSION = '0.002';
 use strict;
 use warnings;
-use parent 'Data::Coloured';
-
-our @EXPORT_OK = qw();
+use Data::Coloured qw( pc c );
+use Exporter 'import';
 
 our @EXPORT = qw( pc c coloured poloured );
 
@@ -24,7 +23,7 @@ DDC - Visualize random bytes
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 DESCRIPTION
 
